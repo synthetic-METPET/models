@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "==1.21.4"
+torch = "==1.10.0"  # CUDA version
+torchvision = "==0.11.1" # CUDA version
+pillow = "==9.1.1"
+dominate = "==2.6.0"
+visdom = "==0.1.8.9"
+
+[requires]
+python_version = "3.8"
